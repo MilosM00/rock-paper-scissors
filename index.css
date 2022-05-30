@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overlay{
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.winner{
+    font-family: 'Corben', cursive;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.inline{
+    display: flex;
+}
+
+.display{
+    margin-right: 200px;
+}
+
+.display,
+.display2{
+    display: grid;
+    place-items: center;
+}
+
+.inline-custom{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.radio-rock,
+.radio-paper,
+.radio-scissors{
+    width: 25px;
+    height: 25px;
+    accent-color: black;
+    cursor: pointer;
+}
+
+.overlay-radio1,
+.overlay-radio2,
+.overlay-radio3{
+    display: grid;
+    place-items: center;
+}
+
+.overlay-radio1,
+.overlay-radio2{
+    margin-right: 50px;
+}
+
+h3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.play{
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(210, 18, 46), rgb(128, 0, 32));
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-again,
+.new-game{
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(to right, rgb(210, 18, 46), rgb(128, 0, 32));
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-again{
+    margin-right: 10px;
+}
+
+h4{
+    font-family: 'Corben', cursive;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.player,
+.bot{
+    font-size: 50px;
+}
