@@ -59,7 +59,7 @@
 
 h3{
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .play{
@@ -99,4 +99,11 @@ h4{
 .player,
 .bot{
     font-size: 50px;
+}
+
+
+@media (max-width: 381px) {
+    .display{
+        margin-right: 100px;
+    }
 }
